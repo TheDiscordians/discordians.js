@@ -4,7 +4,8 @@
   "description": "Asynchronous wrapper to consume discordians API.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "./node_modules/.bin/jsdoc --configure docs.json"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,9 @@
   "homepage": "https://github.com/TheDiscordians/discordians.js#readme",
   "dependencies": {
     "snekfetch": "^3.6.4"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.5.5",
+    "tui-jsdoc-template": "^1.2.2"
   }
 }
