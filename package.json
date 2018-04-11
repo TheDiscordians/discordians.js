@@ -1,0 +1,27 @@
+{
+  "name": "discordians.js",
+  "version": "1.0.0",
+  "description": "Asynchronous wrapper to consume discordians API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheDiscordians/discordians.js.git"
+  },
+  "keywords": [
+    "API",
+    "comic",
+    "translate"
+  ],
+  "author": "Froosty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheDiscordians/discordians.js/issues"
+  },
+  "homepage": "https://github.com/TheDiscordians/discordians.js#readme",
+  "dependencies": {
+    "snekfetch": "^3.6.4"
+  }
+}
